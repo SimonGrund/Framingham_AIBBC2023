@@ -5,10 +5,11 @@ Cardiovascular Health Analysis With The Framingham Data Set
 The Framingham Heart Study is an ongoing study of cardiovascular health of residents of the city of Framingham, Massachusetts. The study includes measurements of several potential biomarkers of cardiovascular disease and has laid the foundation to much of our current understanding of associations between lifestyle and health. 
 
 ## Data
-We have included the first-generation Framingham data set in the data set folder, along with a subset of five hundred individuals that you can use to evaluate code on a small subset before using it on the full data. The data is also accessible directly through R:
+The data is accessible directly through R, and can be loaded by using the load_data.R script in the Code folder:
 
-install.packages("riskCommunicator")
-d = data("framingham", package="riskCommunicator")
+     install.packages("riskCommunicator")
+
+     d = data("framingham", package="riskCommunicator")
 
 ## Potential questions
 - How many individuals are in the data?
